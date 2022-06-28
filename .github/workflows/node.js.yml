@@ -26,6 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd helloworld-test-sample
-    - run: npm ci
-    - run: npm run test
+    - run: cd helloworld-test-sample && npm ci
+    - run: cd helloworld-test-sample && npm run test
