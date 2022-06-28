@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: cd helloworld-test-sample
     - run: npm ci
-    - run: npm test
+    - run: npm run test
